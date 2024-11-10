@@ -29,6 +29,7 @@ body {
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
+  background-color: #D8DBE2;
 }
 
 body.locked {
@@ -408,7 +409,8 @@ ul {
 .main-header__top {
   position: relative;
   display: block;
-  background-color: var(--ambed-white, #ffffff);
+  /* background-color: var(--ambed-white, #ffffff); */
+  background-color: #FAF3DD;
   padding-bottom: 35px;
   margin-bottom: -35px;
 }
