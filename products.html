@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<!-- Mirrored from ambed-html.vercel.app/main-html/projects.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Oct 2024 08:02:20 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
 <head>
     <meta charset="UTF-8" />
@@ -44,6 +40,7 @@
     <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
     <link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css" />
 
+
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/ambed.css" />
     <link rel="stylesheet" href="assets/css/ambed-responsive.css" />
@@ -62,23 +59,11 @@
     <div class="custom-cursor__cursor"></div>
     <div class="custom-cursor__cursor-two"></div>
 
-    <!-- style switcher -->
-    <div class="style-switcher">
-        <a href="#" id="switcher-toggler"><i class="fa fa-cog"></i></a>
-        <h3>Layout Options</h3>
-        <div class="layout-feature" id="colorMode">
-            <a href="#" class="dark-switcher" data-theme="ambed-dark">Dark</a>
-            <a href="#" class="light-switcher" data-theme="ambed-light">Light</a>
-            <button class="boxed-switcher">Boxed</button><!-- /.ltr-switcher -->
-        </div><!-- /.language-feature -->
-    </div>
-    <!-- end style switcher -->
-
-
 
     <div class="preloader">
         <div class="preloader__image"></div>
     </div>
+
     <!-- /.preloader -->
     <div class="page-wrapper">
         <header class="main-header clearfix">
@@ -239,7 +224,7 @@
                                             <a href="./shop.html">Shop</a>
                                         </li>
                                         <li class="dropdown">
-                                            <a href="#">Career</a>
+                                            <a href="./career.html">Career</a>
                                         </li>
                                         <li><a href="contact.html">Contact </a>
                                         </li>
@@ -284,11 +269,10 @@
         <!--Page Header End-->
 
         <!--Projects Page Start-->
-        <section class="projects-page">
+        <!-- <section class="projects-page">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
-                        <!--Project Three Single-->
                         <div class="project-three__single">
                             <div class="project-three__img-box">
                                 <div class="project-three__img">
@@ -306,7 +290,6 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-                        <!--Project Three Single-->
                         <div class="project-three__single">
                             <div class="project-three__img-box">
                                 <div class="project-three__img">
@@ -324,7 +307,6 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-                        <!--Project Three Single-->
                         <div class="project-three__single">
                             <div class="project-three__img-box">
                                 <div class="project-three__img">
@@ -342,7 +324,6 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                        <!--Project Three Single-->
                         <div class="project-three__single">
                             <div class="project-three__img-box">
                                 <div class="project-three__img">
@@ -360,7 +341,6 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="500ms">
-                        <!--Project Three Single-->
                         <div class="project-three__single">
                             <div class="project-three__img-box">
                                 <div class="project-three__img">
@@ -378,7 +358,6 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="600ms">
-                        <!--Project Three Single-->
                         <div class="project-three__single">
                             <div class="project-three__img-box">
                                 <div class="project-three__img">
@@ -397,7 +376,31 @@
                     </div>
                 </div>
             </div>
+        </section> -->
+
+        <section class="products-section">
+            <div class="buttons-of-products">
+                <button id="all">ALL</button>
+                <button id="emulsions">Emulsions</button>
+                <button id="primers">Primers</button>
+                <button id="enamels">Enamels</button>
+                <button id="distempers">Distempers</button>
+            </div>
+            <div class="product-images">
+                <div id="for-all-button" class="detail-products">
+                    <div class="image">
+                        <img src="./assets/images/prroduct/images/all.jpg"
+                            style="width: 100%; max-width: 400px; border-radius: 10px;" alt="">
+                    </div>
+                </div>
+                <div id="for-emulsions-button">Explore emulsions products</div>
+                <div id="for-primers-button">Explore primers products</div>
+                <div id="for-enamels-button">Explore enamels products</div>
+                <div id="for-distempers-button">Explore distempers products</div>
+                <div id="for-miscellaneous-button">Explore miscellaneous products</div>
+            </div>
         </section>
+        <script src="./assets/js/prodcuts.js"></script>
         <!--Projects Page End-->
 
         <!--Site Footer Start-->
